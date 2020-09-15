@@ -23,4 +23,4 @@ Następnie należy uruchomić apache
 
 # Lokalizacja plików
 
-```/opt/lampp/htdocs/{nazwa_folderu}/index.php
+```/opt/lampp/htdocs/{nazwa_folderu}/index.php```
