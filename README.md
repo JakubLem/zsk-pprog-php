@@ -1,4 +1,4 @@
-# ```uczeń:``` Jakub Lemiesiewicz ```klasa:``` 4D
+# uczeń: ```Jakub Lemiesiewicz``` klasa: ```4D```
 
 - zajęcia: ```Pracownia Programowania```
 - język: ```PHP```
