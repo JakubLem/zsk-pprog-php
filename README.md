@@ -15,3 +15,12 @@ zostaje kopiowana do ```./lekcje/lekcja{nr}/file.php```
 
 # Uruchamianie pliku ```index.php```
 
+```cd /opt/lampp```
+```sudo ./manager-linux-x64.run```
+
+Następnie należy uruchomić apache
+
+
+# Lokalizacja plików
+
+```/opt/lampp/htdocs/{nazwa_folderu}/index.php
