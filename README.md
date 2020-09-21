@@ -1,5 +1,4 @@
-# uczeń: ```Jakub Lemiesiewicz``` klasa: ```4D```
-
+# Jakub Lemiesiewicz
 - zajęcia: ```Pracownia Programowania```
 - język: ```PHP```
 
@@ -24,4 +23,4 @@ Następnie należy uruchomić apache
 
 # Lokalizacja plików
 
-```/opt/lampp/htdocs/{nazwa_folderu}/index.php```
+```/opt/lampp/htdocs/{nazwa_folderu}/index.php
