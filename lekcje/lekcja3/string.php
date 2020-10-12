@@ -48,6 +48,5 @@
 
     echo $lorem;
     echo wordwrap($lorem, 40, '<br>'); //obj, rozmiar, jak podzielić (nie podzielą się wyrazy!)
-    // ob_clean(); //czyszczenie bufora
-    
+    // ob_clean(); 
 ?>

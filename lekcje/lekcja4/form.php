@@ -10,19 +10,8 @@
     <form method="get">
         <input type="text" name="surname">
         <input type="submit" name="Zatwierdź">
-    </form>
-    <?php
-        if(!empty($_GET['surname'])) {
-            $surname = $_GET['surname'];
-        }
-        if (strlen(trim($surname))) {
-            echo <<<TEXT
-            Nazwisko: $surname;
-TEXT;
-        } else {
-            echo "Nie wprowadzaj tylko białych znaków";
-        }
-    ?>
+
     
+    </form>
 </body>
 </html>
