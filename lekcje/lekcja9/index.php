@@ -16,7 +16,7 @@
             <option value="/">/</option> 
         </select> 
         <input type="number" name="y" placeholder="y" step="0.01"> 
-        <input type="submit" name="button" value="="> 
+        <button>=</button>
         <input type="number" name="result" id="result" step="0.01" disabled> 
     <form>
     <?php
@@ -24,13 +24,13 @@
             return $x+$y;
         }
         function sub($x, $y){
-            return $x+$y;
+            return $x-$y;
         }
         function mn($x, $y){
-            return $x+$y;
+            return $x*$y;
         }
         function dz($x, $y){
-            return $x+$y;
+            return $x/$y;
         }
 
 
@@ -38,7 +38,7 @@
 
         if(isset($_POST['button'])){
             if (!empty($_POST['x']) || $_POST['x'] == '0' && !empty($_POST['dzialanie'])){ 
-                echo 'wypelnione';
+                // echo 'wypelnione';
                 // require_once './1_function.php';
                 $x = $_POST['x'];
                 $y = $_POST['y'];
